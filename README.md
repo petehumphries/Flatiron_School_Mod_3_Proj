@@ -1,0 +1,9 @@
+## Executive Summary 
+
+Our project was based around finding relationships that can be used to indicate the Carbon emissions of firms. Our data set was sourced from Morgan Grenfell and provided us with three scopes for our analysis.
+
+Whether Greenhouse Gas Emissions vary by industry sector was the first of our analyses. Our null hypothesis was that GHG emissions did not vary by sector. We used the natural logs of our dependent variable in order to conduct an ANOVA on dummy variables we produced for each of the 11 sectors in our data set as they were not normally distributed. We were able to reject the null hypothesis of the following sectors; Energy, Industrials, Materials, Utilities. Thus we conclude that those sectors do produce GHG at a significantly larger rate than the population average. 
+ 
+Our second hypothesis was centred on whether there is a statistical difference between firms that do report their Carbon emissions and those that don’t and as a result have independently estimated emission levels. Due to our number of observations we conducted a z - test on the two groups with a null hypothesis, that we rejected, of no difference between the two groups. Plotting the distributions suggests that those that do report their emissions either do so conservatively or those that don’t are more likely to be larger polluters. 
+
+Finally, we investigated the effect of public online sentiment on a firms carbon emissions. We regressed two indices of public online sentiment, one positive and one negative, on Carbon emissions. We reject the null hypothesis for both of our regressors concluding that there is a relationship present. However, we acknowledge that correlation may not be causation in this situation as the coefficients are in the expected direction but we cannot conclude that they drive carbon emissions instead of being reactionary to it.
